@@ -1,0 +1,27 @@
+.spanClass {
+  border: 3px solid #0c0b0b;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  color: #333333;
+  box-sizing: border-box;
+  width: 700px; 
+  cursor: pointer;
+}
+
+.option{
+  border: 3px solid #0c0b0b;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  box-sizing: border-box;
+  display:flex;
+  width: calc(30% + 50px);
+  margin-top: 20px;
+}
+.App {
+  margin: 20px;
+}
