@@ -1,0 +1,14 @@
+
+1. Go to react folder in file manager
+2. Right click -> select git bash here option
+3. In git bash enter command "npx create-react-app my-app"
+4. Close git bash
+5. open my app project 
+6. Right click -> select git bash here option
+7. In git bash enter command "npm start" to start the application.
+8. Ctrl+c to stop server
+
+To open project in vs code
+1. Go to project folder
+2. Type "cmd" in URL
+3. in command prompt enter code .

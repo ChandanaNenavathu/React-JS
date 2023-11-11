@@ -1,0 +1,314 @@
+.li-nav {
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+    
+  }
+.navbar {
+  margin-left: 1214px;
+}
+.mobile-navbar-btn{
+  display: none;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+@media only screen and (max-width:1200){
+  .mobile-navbar-btn {
+    display: inline-block;
+    z-index: 9999;
+  }
+}
+
+.grid {
+  display: grid;
+  gap: 5px;
+  text-align: center;
+}
+.grid-two-coloumn {
+  grid-template-columns: repeat(2, 1fr);
+}
+/* .container {
+  max-width: 120rem;
+  margin: 0 auto;
+} */
+button {
+  padding: 15px;
+}
+.contact-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin: 101px 598px 23px 615px;
+  padding-inline: 10px;
+
+  input[type ="submit"]{
+  cursor: pointer;
+    transition: all 0.2s;
+}
+}
+input {
+  padding: 13px;
+font-size: medium;
+}
+.error {
+  text-align: center;
+}
+h1 {
+  font-size: 6.4rem;
+}
+.product-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 90px;
+
+}
+
+.product-image {
+  width: 200px;
+  height: 200px;
+}
+
+.Grid {
+  display: inline-block;
+  align-items: center;
+  margin-left: 140px;
+  margin-top: 60px;
+}
+.feature {
+  background-color:beige;
+  margin-top: 70px;
+  align-items: center;
+  padding: 5px;
+  justify-items: center;
+ 
+}
+.common-heading, h2 {
+  justify-items: center;
+  margin-left: 222px
+}
+/* .container {
+  width: 100%;
+  padding:0rem 12 rem;
+} */
+.product-data {
+  text-align: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.image-wrapper {
+  grid-row: span 4;
+}
+
+.image {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+
+}
+
+.product-data {
+  margin-top: -201px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 256px;
+}
+.description {
+  margin-left: 443px;
+  justify-content: center;
+}
+.product-images {
+  display: flex;
+  align-items: center;
+}
+/* .icon-style {
+  display: flex;
+  gap: 2rem;
+} */
+hr {
+  max-width: 100%;
+  width: 90%;
+  border: 0.1rem solid black;
+  color: red;
+}
+.btnStyle {
+  display: inline-block;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  margin-left: 1rem;
+  background-color: #000;
+  opacity: 0.5;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.active {
+  opacity: 1;
+}
+.amount-toggle {
+  display: flex;
+  align-items: center;
+  margin-left: 680px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.amount-style {
+  margin: 0 10px;
+}
+.grid-FilContainer {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
+  grid-gap: 20px;
+}
+
+.column-sort {
+    padding: 5px;
+}
+
+.column-chandu {
+  display: grid;
+  grid-template-rows: 0.3fr 5fr;
+  grid-gap: 10px;
+}
+
+.row-1,
+.row-2 {
+  padding: 2px;
+}
+.row-1 {
+  padding: 3px;
+}
+.row-2 {
+  padding: -2px;
+}
+.card-data-flex {
+  font-size:.9rem!important ;
+  margin-left: 103px;
+  justify-content: center;
+  justify-items: flex-start;
+}
+.btn {
+  margin: 2 rem 0;
+  background-color: rgb(0 0 0 / 0%);;
+  border: 0.1rem solid rgb(98 84 243);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(98 84 243);
+  &:hover {
+    background-color:rgb(98 84 243) ;
+  }
+}
+.btn-main .btn:hover {
+  color: antiquewhite;
+}
+.card-data {
+  text-align: center;
+  margin-bottom: 12px
+  ;
+
+}
+.icon {
+  font-size: 1.6rem;
+}
+.active {
+  background-color: black;
+  color: #fff;
+}
+.sort-btn {
+  position:relative;
+  padding:0.8rem 1rem;
+  border: none;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+  
+}
+.sort-selection{
+  margin-left: 823px;
+    margin-top: 50px;
+    /* position: relative; */
+    padding: 10px;
+    font-size:20px;
+    font-weight: 200;
+}
+
+
+.cart_heading {
+  display: flex;
+  justify-content: space-between;
+  width: 30%; /* Adjust the width as per your requirement */
+}
+
+/* Apply any other necessary styles for the 'p' elements */
+.cart_heading p {
+  flex: 1; /* Equal width for all 'p' elements */
+  text-align: center; /* Center text in each column */
+  margin-left: 40%;
+}
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-item img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.cart-image--name {
+  display: flex;
+  align-items: center;
+}
+
+.color-div {
+  display: flex;
+  align-items: center;
+}
+
+.color-style {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.5rem;
+}
+
+.cart_heading p,
+.cart-item p {
+  flex: 1;
+  text-align: center;
+}
+
+/* Additional styles as needed */
+
+
